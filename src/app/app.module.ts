@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { CarListComponent } from './car-list/car-list.component';
 import { ToggleViewComponent } from './toggle-view/toggle-view.component';
+import { AddCarComponent } from './add-car/add-car.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ToggleViewComponent } from './toggle-view/toggle-view.component';
     NavbarComponent,
     HomeComponent,
     CarListComponent,
-    ToggleViewComponent
+    ToggleViewComponent,
+    AddCarComponent
   ],
   imports: [
     BrowserModule,
